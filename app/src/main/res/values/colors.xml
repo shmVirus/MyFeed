@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#00CF35</color>
+    <color name="secondary">#2CA7E0</color>
+    <color name="primaryDark">#00AC89</color>
+
+    <color name="feedsTitle">#121212</color>
+    <color name="noFeedsText">#393939</color>
+
+    <color name="itemTitle">#121212</color>
+    <color name="itemDescription">#393939</color>
+    <color name="itemAuthor">#7C7C7C</color>
+    <color name="itemDate">#7C7C7C</color>
+</resources>

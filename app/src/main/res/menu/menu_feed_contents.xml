@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mMenu"
+        android:icon="@drawable/ic_three_dots_vertical"
+        android:title="Menu"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/mBack"
+                android:icon="@drawable/ic_back"
+                android:title="Go Back"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/mDelete"
+                android:icon="@drawable/ic_delete"
+                android:title="Delete this Feed"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/mClose"
+                android:icon="@drawable/ic_close"
+                android:title="Exit Application"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

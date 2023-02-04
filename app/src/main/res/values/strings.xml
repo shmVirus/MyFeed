@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyFeed</string>
+    <string name="hintLoginUserName">username</string>
+    <string name="hintLoginPassword">password</string>
+    <string name="hintUserName">enter username, e.g. tux</string>
+    <string name="hintPassword">enter password, e.g. coolPenguin</string>
+    <string name="hintRePassword">re-enter password, e.g. coolPenguin</string>
+    <string name="hintFeedTitle">"Tux's Blogs"</string>
+    <string name="hintFeedURL">https://example.com/feed/rss</string>
+    <string name="instructions">"1. Goto Your Favourite Website,\n\t\tand look for RSS Feed URL\n2. Copy RSS Feed URL, and\n3. Add that URL on Add Feed Section\n4. For Example,\n\t\ta. https://fahimscirex.github.io/rss.xml\n\t\tb. https://ahmubashshir.github.io/rss.xml"
+    </string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mMenu"
+        android:icon="@drawable/ic_three_dots_vertical"
+        android:title="Menu"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/mAddFeed"
+                android:icon="@drawable/ic_add"
+                android:title="Add Feed"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/mEditFeed"
+                android:icon="@drawable/ic_edit"
+                android:title="Edit Feed"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/mDeleteFeeds"
+                android:icon="@drawable/ic_delete"
+                android:title="Delete Feeds"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/mInstructions"
+                android:icon="@drawable/ic_info"
+                android:title="Show Instructions"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/mClose"
+                android:icon="@drawable/ic_close"
+                android:title="Exit Application"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/mLogOut"
+                android:icon="@drawable/ic_logout"
+                android:title="LogOut"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/mDeleteAccount"
+                android:icon="@drawable/ic_person_remove"
+                android:title="Delete Account"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
